@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -11,7 +12,7 @@ class HomePage extends StatelessWidget {
         child: ElevatedButton(
           child: Text('노트 바로가기'),
           onPressed: () {
-            Navigator.pushNamed(context, '/note');
+            Get.offNamed('/note');
           },
         ),
       ),
