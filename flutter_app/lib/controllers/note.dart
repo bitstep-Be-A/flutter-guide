@@ -10,19 +10,26 @@ import 'package:flutter_app/exceptions.dart';
 /// CRUD: create, retrieve, update, delete
 class NoteController extends GetxController {
   final notesRef = FirebaseDatabase.instance.ref().child('notes');
-  RxList<Note> items = RxList<Note>([]);
+  RxList<Note> items = <Note>[].obs;
 
-  NoteController() {
-    notesRef.get()
-      .then((snapshot) => {
-        if (snapshot.exists) {
-          items.value = (snapshot.value as Map).entries.map((e) => Note(
-            id: e.key,
-            content: (e.value as Map)[NoteField.content],
-            createdOn: (e.value as Map)[NoteField.createdOn]
-          )).toList()
-        }
-      });
+  @override
+  void onInit() {
+    super.onInit();
+    _fetchData();
+  }
+
+  Future<List<Note>> _fetchData() async {
+    final snapshot = await notesRef.get();
+
+    if (snapshot.exists) {
+      items.value = (snapshot.value as Map).entries.map((e) => Note(
+        id: e.key,
+        content: (e.value as Map)[NoteField.content],
+        createdOn: (e.value as Map)[NoteField.createdOn]
+      )).toList();
+    }
+
+    return items;
   }
 
   Future<Note> retrieve(String key) async {

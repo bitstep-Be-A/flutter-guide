@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
         child: ElevatedButton(
           child: const Text('노트 바로가기'),
           onPressed: () {
-            Get.toNamed('/note');
+            Get.offNamed('/note');
           },
         ),
       ),
