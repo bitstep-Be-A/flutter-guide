@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import 'package:flutter_app/pages/home.dart';
-import 'package:flutter_app/pages/note.dart';
+import 'package:flutter_app/views/home.dart';
+import 'package:flutter_app/views/note.dart';
 
 final routes = [
-  GetPage(name: '/', page: () => HomePage()),
+  GetPage(name: '/', page: () => const HomePage()),
   GetPage(name: '/note', page: () => NotePage())
 ];
