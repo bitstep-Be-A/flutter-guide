@@ -9,6 +9,7 @@
 - [GetX 참조 링크 모음](./docs/GetX%20%EC%B0%B8%EC%A1%B0%20%EB%A7%81%ED%81%AC%20%EB%AA%A8%EC%9D%8C.md)
 - [1. Route](./docs/1.%20Route.md)
 - [2. Getx를 이용한 route](./docs/2.%20Getx%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20route.md)
+- [3. Firebase, GetX를 활용하여 간단한 노트 앱 만들기](./docs/3.%20Firebase%2C%20GetX%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B0%84%EB%8B%A8%ED%95%9C%20%EB%85%B8%ED%8A%B8%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
 
 ## Update
 
@@ -22,3 +23,7 @@
 ### 23.7.5
 
 - [x] [Add] Getx를 이용한 route
+
+### 23.7.7
+
+- [x] [Add] Firebase, GetX를 활용하여 간단한 노트 앱 만들기
