@@ -13,7 +13,7 @@ class NotePage extends StatelessWidget {
     Get.put(NoteController());
 
     return GetX<NoteController>(
-        builder: (noteController) => Scaffold(
+      builder: (noteController) => Scaffold(
         appBar: AppBar(
           title: const Text('노트'),
         ),
