@@ -10,6 +10,7 @@
 - [1. Route](./docs/1.%20Route.md)
 - [2. Getx를 이용한 route](./docs/2.%20Getx%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20route.md)
 - [3. Firebase, GetX를 활용하여 간단한 노트 앱 만들기](./docs/3.%20Firebase%2C%20GetX%EB%A5%BC%20%ED%99%9C%EC%9A%A9%ED%95%98%EC%97%AC%20%EA%B0%84%EB%8B%A8%ED%95%9C%20%EB%85%B8%ED%8A%B8%20%EC%95%B1%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+- [4. Firebase Auth 연동하기](./docs/4.%20Firebase%20Auth%20연동하기.md)
 
 ## Update
 
