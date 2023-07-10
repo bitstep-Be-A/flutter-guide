@@ -27,3 +27,7 @@
 ### 23.7.7
 
 - [x] [Add] Firebase, GetX를 활용하여 간단한 노트 앱 만들기
+
+### 23.7.10
+
+- [x] [Add] Firebase Auth 연동하기
